@@ -1,7 +1,11 @@
+/**
+ * @author Vijet Badigannavar(bvijet@gmail.com)
+ * @modified 28-Feb-2015
+ */
 package com.vijet.viewcolorpalette.exceptions;
 
 /**
- * Created by BMH1014669 on 27/02/15.
+ * Custom Exception that will be thrown if View is null.
  */
 public class InvalidViewException extends RuntimeException {
     public InvalidViewException(){}
